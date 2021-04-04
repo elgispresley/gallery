@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+
+.heroes {
+    display: flex;
+    height: 100%;
+    background: pink;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-end; */
+    /* justify-content: center;
+  align-items: center;
+   */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row; */
+   
+}
+
+.dota2 {
+text-align: center;
+background:pink;
+font-family: cursive;
+padding-top: 50px;
+
+}
+img {
+width: 200px;
+border-radius: 10px;
+margin: 6px;
+}
+.size {
+width: 865px;
+margin-top: 50px;
+}
+.title {
+background-color: brown;
+color: white;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 2;    
+
+display: flex;
+justify-content: space-between;
+}
+.search {
+display: flex;
+}   
+.search > input {
+border-radius: 3px;
+width: 300px;
+}
+.search > button {
+border-radius: 7px;
+
+}
+.mail {
+background-color: brown;
+font-size: 20px;
+text-align: center;
+color: white;
+position: fixed;
+bottom: 0;
+right: 0;
+left: 0;
+z-index: 2;    
+}
